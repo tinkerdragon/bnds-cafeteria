@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "navigationBarTitleText": "Cafeteria Seating",
+    "backgroundColor": "#f0f0f0"
+  }
+}

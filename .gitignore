@@ -1,0 +1,7 @@
+node_modules/
+*.log
+miniprogram/dist/
+*.dev.js
+*.prod.js
+cloudfunctions/*/node_modules/
+project.private.config.json

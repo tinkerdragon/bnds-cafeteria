@@ -1,0 +1,12 @@
+{
+  "description": "Cafeteria Seating Mini Program",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "appid": "your-app-id",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "miniprogramRoot": "miniprogram/"
+}
