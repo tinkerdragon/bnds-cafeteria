@@ -1,0 +1,9 @@
+<view class="cafeteria-container">
+  <scroll-view scroll-x="true" scroll-y="true">
+    <view class="seat-grid">
+      <view wx:for="{{seats}}" wx:key="seatId" class="seat {{item.status}}" bindtap="onSeatTap">
+        <text>{{item.seatId}}</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

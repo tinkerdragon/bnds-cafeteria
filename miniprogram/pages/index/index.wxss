@@ -1,0 +1,24 @@
+.cafeteria-container {
+  padding: 20rpx;
+  height: 100vh;
+}
+.seat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+}
+.seat {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 8rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+}
+.seat.free {
+  background-color: #00ff00;
+}
+.seat.occupied {
+  background-color: #ff0000;
+}
