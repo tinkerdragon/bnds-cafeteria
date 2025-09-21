@@ -1,0 +1,10 @@
+<view class="admin-container">
+  <picker range="{{seatIds}}" bind:change="onSeatSelect">
+    <view>Seat: {{selectedSeat}}</view>
+  </picker>
+  <radio-group bind:change="onStatusChange">
+    <radio value="free">Free</radio>
+    <radio value="occupied">Occupied</radio>
+  </radio-group>
+  <button bindtap="updateSeat">Update</button>
+</view>

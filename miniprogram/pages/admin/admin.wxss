@@ -1,0 +1,9 @@
+.admin-container {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+picker, radio-group, button {
+  margin: 10rpx 0;
+}
